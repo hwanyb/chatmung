@@ -1,0 +1,84 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 80px;
+}
+.blackBack{
+    background-color: #292929;
+}
+.whiteBack{
+    background-color: #fff;
+}
+.dogSays{
+    width: 520px;
+    height:220px;
+    margin: auto;
+    background-image: url(../img/chat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.dogText{
+    padding-top: 12%;
+    margin: auto;
+    font-family: 'DungGeunMo';
+    font-size: 30px;
+    align-items: center;
+}
+.dogText>small{
+    font-size: 20px;
+}
+.dog{
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(../img/Dog.png);
+}
+.inputStyle{
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.button {
+  width: 200px;
+  background: #1581ff;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top:25px;
+  cursor: pointer;
+}
+.buttonHover{
+    background-color: #0027ff;
+    
+}
